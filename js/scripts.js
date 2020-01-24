@@ -3,12 +3,12 @@
 var dave = function(number) {
   result = [];
   for (var currentNumber = 1; currentNumber <= number; currentNumber +=1) {
-    result.push(currentNumber);
+    result.push(currentNumber + " ");
+
   }
-
-
+  return result;
   console.log(result);
-}
+};
 
 
 
@@ -20,7 +20,8 @@ $(document).ready(function() {
 
     var number = parseInt($("input#inputNumber").val());
     var result = dave(number);
-    $("#output").text(result);
+    console.log(result);
+    $("#output").append(result);
   });
 });
 
