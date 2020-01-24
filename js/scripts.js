@@ -1,9 +1,10 @@
 // business logic
 
 var dave = function(number) {
-  result = [];
-  for (var currentNumber = 1; currentNumber <= number; currentNumber +=1) {
-    if (currentNumber === 1) {
+  var result = [];
+  for (var currentNumber = 0; currentNumber <= number; currentNumber +=1) {
+    if (currentNumber.toString().includes("1")) {
+      console.log(currentNumber)
       result.push("Beep!");
   } else {
     result.push(currentNumber + " ");
@@ -11,8 +12,6 @@ var dave = function(number) {
   }
   return result;
 };
-
-
 
 //user interface logic
 
