@@ -13,9 +13,3 @@ body {
 .dave {
   color: red;
 }
-
-.reset {
-  display: flex;
-  justify-content:right;
-  align-items:center;
-}
