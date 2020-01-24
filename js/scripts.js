@@ -1,7 +1,8 @@
 // business logic
 
-var dave = function(number) {
+var dave = function(array) {
 
+  console.log(array);
 }
 
 
@@ -11,11 +12,10 @@ var dave = function(number) {
 $(document).ready(function() {
   $("form#input").submit(function(event) {
     event.preventDefault();
-    v
-    var number = parseInt($("#input").val());
-    var result = dave(number);
 
-    console.log(result)
+    var number = $("input#inputNumber").val();
+    var array = number.split("");
+    var result = dave(array);
     $("#output").text(result);
-  })
-})
+  });
+});
