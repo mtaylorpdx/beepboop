@@ -1,3 +1,10 @@
 body {
-  background-color: lightgrey;
+  background-color: darkgrey;
+}
+
+.greeting {
+  color: red;
+  display: flex;
+  justify-content:center;
+  align-items:center;
 }
