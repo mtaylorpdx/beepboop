@@ -1,10 +1,21 @@
 body {
+  font-family: Arial, Helvetica, sans-serif;
   background-color: darkgrey;
 }
 
 .greeting {
-  color: red;
+  color: black;
   display: flex;
   justify-content:center;
+  align-items:center;
+}
+
+.dave {
+  color: red;
+}
+
+.reset {
+  display: flex;
+  justify-content:right;
   align-items:center;
 }
