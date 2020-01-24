@@ -10,9 +10,10 @@ _This project application is a mock survey that takes user a/b/c input and uses 
 
 | Behavior | Input Example | Output Example |
 |----|----|-----|
-| Program replaces any number with 1 with "Beep" | 1 | Beep |
-| Program replaces any number with 2 with "Boop" | 2 | Beep |
-| Program replaces any number with 3 with "I'm sorry, Dave. I'm afraid I can't do that." | 3 | Beep |
+| Program returns a range of numbers from 0 to the user's inputted number | 4 | 0, 1, 2, 3, 4 |=
+| Program replaces any number with a 1 with "Beep!" | 1 | Beep! |
+| Program replaces any number with a 2 with "Boop!" | 2 | Beep! Boop! |
+| Program replaces any number with a 3 with "I'm sorry, Dave. I'm afraid I can't do that." | 3 | Beep! Boop! "I'm sorry, Dave. I'm afraid I can't do that." |
 
 
 
@@ -37,4 +38,4 @@ _Written iplementing Bootstrap and jQuery_
 
 *Licensed under the MIT License*
 
-Copyright (c) 2016 **_Matt Taylor_**
+Copyright (c) 2020 **_Matt Taylor_**
