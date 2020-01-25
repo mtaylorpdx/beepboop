@@ -5,9 +5,9 @@ var dave = function(number) {
   for (var i = 0; i <= number; i +=1) {
     if (stringCheck(i, "3")) {
       result.push("I'm sorry, Dave. I'm afraid I can't do that. ");
-    } else if (stringCheck(i, "3")) {
+    } else if (stringCheck(i, "2")) {
         result.push("Boop! ");
-    } else if (stringCheck(i, "3")) {
+    } else if (stringCheck(i, "1")) {
         result.push("Beep! ");
     } else {
       result.push(i + " ");
