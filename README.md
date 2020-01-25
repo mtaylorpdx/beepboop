@@ -32,7 +32,7 @@ Email [@Matt Taylor](mailto:taylor.matt@protonmail.com)
 
 ## Technologies Used
 
-_Written iplementing Bootstrap and jQuery_
+_Written implementing Bootstrap and jQuery_
 
 ### License
 

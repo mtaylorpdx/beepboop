@@ -16,7 +16,6 @@ var dave = function(number) {
   return result;
 };
 
-
 function stringCheck(number, obj) {
   var strNumber = number.toString();
   for (var i = 0; i< strNumber.length; i++) {
