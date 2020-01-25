@@ -1,14 +1,13 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: darkgrey;
+  height: 100%;
+  background-color: lightgrey;
 }
 
-.greeting {
-  color: black;
-  justify-content:center;
-  align-items:center;
+.jumbotron {
+  background-color: black;
 }
 
-.dave {
+.red {
   color: red;
 }
